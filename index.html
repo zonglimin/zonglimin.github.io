@@ -414,7 +414,17 @@
       
         
           
-            <h1 id="Hello-My-First-Blog"><a href="#Hello-My-First-Blog" class="headerlink" title="Hello My First Blog!"></a>Hello My First Blog!</h1><p><img src="/2018/04/25/pic/Lin.jpg" alt="pic"></p>
+            <h1 id="Hello-My-First-Blog"><a href="#Hello-My-First-Blog" class="headerlink" title="Hello My First Blog!"></a>Hello My First Blog!</h1><ul>
+<li>首先修改_config.yml文件中的post_asset_folder为true</li>
+<li><p>在hexo的目录下执行</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install https://github.com/CodeFalling/hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>再次hexo new pic，就会生成一个放置图片的文件夹和pic.md</p>
+</li>
+<li>比如填写 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![loo](目录名/图片名.jpg)</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>就可以插入图片了。<br><img src="/2018/04/25/pic/Lin.jpg" alt="pic"></p>
 
           
         
